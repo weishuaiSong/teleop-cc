@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.python-version
+
+# Local Claude Code per-user settings
+.claude/settings.local.json
+
+# Runtime state
+sessions.json
+sessions.json.tmp
+projects.json
+projects.json.tmp
