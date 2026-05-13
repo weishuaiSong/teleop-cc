@@ -64,8 +64,8 @@ Telegram Bot ─────► bridge.py ─────► Claude Agent SDK �
 **安装**
 
 ```bash
-git clone <repo> teleop
-cd teleop
+git clone https://github.com/weishuaiSong/teleop-cc.git
+cd teleop-cc
 uv sync
 cp .env.example .env       # 编辑 .env，填 token 和项目路径
 uv run python bridge.py
@@ -314,8 +314,8 @@ One Telegram chat ⇄ many named Claude sessions, scoped per project. Each sessi
 **Install**
 
 ```bash
-git clone <repo> teleop
-cd teleop
+git clone https://github.com/weishuaiSong/teleop-cc.git
+cd teleop-cc
 uv sync
 cp .env.example .env       # edit .env, fill in token and project paths
 uv run python bridge.py
